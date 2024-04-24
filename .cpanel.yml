@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/radoy812/public_html/my_project/coaching/
+    - /bin/cp -R * $DEPLOYPATH
