@@ -1,5 +1,8 @@
-import { Header } from "../Components/Layout"
-import { AboutMe, ParallaxHome, ServicesHome } from "../Components/homeBody"
+import Header from "../Components/Layout/header/Header"
+import AboutMe from "../Components/homeBody/AboutMe"
+import ParallaxHome from "../Components/homeBody/ParallaxHome"
+import ServicesHome from "../Components/homeBody/ServicesHome"
+
 
 
 function Home() {
