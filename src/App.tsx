@@ -1,8 +1,13 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, About, Services, Testimonials, Contact, ComingSoon } from "./pages";
 import Banner from "./Components/Layout/header/Banner";
 import Nav from "./Components/Layout/header/Nav";
 import Footer from "./Components/Layout/footer/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Testimonials from "./pages/Testimonials";
+import Contact from "./pages/Contact";
+import ComingSoon from "./pages/ComingSoon";
 
 
 
