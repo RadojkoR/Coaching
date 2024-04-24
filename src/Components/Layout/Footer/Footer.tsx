@@ -34,7 +34,7 @@ function Footer() {
         <p className="mb-8">
           Copyright &copy; 2024 Coaching - All Rights Reserved.
         </p>
-        <a className="mb-8 absolute right-5" href="https://radoyko.com/">
+        <a className="mb-8 absolute right-5" href="https://radoyko.com/" target="_blank">
           Powered by Radoyko.com
         </a>
       </section>
