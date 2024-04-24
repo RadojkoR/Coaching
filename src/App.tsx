@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import Banner from "./Components/Layout/header/Banner";
 import Nav from "./Components/Layout/header/Nav";
 import Footer from "./Components/Layout/footer/Footer";
