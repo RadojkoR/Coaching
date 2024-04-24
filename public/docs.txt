@@ -1,5 +1,0 @@
-Colors: 
-Tapa:#797670;
-Akaroa:#d8cbac
-Laser:#c7ae79
-Cold Turkey:#c8b4bc
