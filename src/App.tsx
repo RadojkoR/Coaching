@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import { Home, About, Services, Testimonials, Contact, ComingSoon } from "./pages";
-import { Banner, Nav, Footer } from "./Components/Layout";
+import Banner from "./Components/Layout/header/Banner";
+import Nav from "./Components/Layout/header/Nav";
+import Footer from "./Components/Layout/footer/Footer";
 
 
 
