@@ -1,8 +1,15 @@
+import { Header } from "../Components/Layout"
+import { AboutMe, ParallaxHome, ServicesHome } from "../Components/homeBody"
 
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+        <Header />
+        <AboutMe />
+        <ServicesHome />
+        <ParallaxHome />
+    </>
   )
 }
 

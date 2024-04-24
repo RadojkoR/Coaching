@@ -1,7 +1,7 @@
-
 import { Routes, Route } from "react-router-dom";
-import { Footer, Nav } from "./Components/Layout";
-import { About, Contact, Home, Services, Testimonials } from "./Pages";
+import { Banner, Footer, Nav } from "./Components/Layout";
+import { Home, About, Services, Testimonials, Contact, ComingSoon } from "./pages";
+
 
 
 
@@ -9,15 +9,17 @@ function App() {
   
 
   return (
-    <div>
+    <div className="relative">
+      <Banner />
       <Nav />
       <div>
         <Routes>
-          <Route path="/home" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/services" element={<Services />}></Route>
           <Route path="/testimonials" element={<Testimonials />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/comingSoon" element={<ComingSoon/>}></Route>
         </Routes>
       </div>
       <Footer />
